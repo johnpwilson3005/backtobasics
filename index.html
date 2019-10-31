@@ -89,5 +89,87 @@
         </table>
     </div>
 
+<!-- Some HTML Forms! -->
+    <!-- <form action="post">
+        <input type="text">
+        <input type="date">
+        <input type="color">
+        <input type="file">
+        <input type="checkbox">
+        <input type="email">
+        <input type="radio">
+        <input type="number">
+    </form> -->
+    <h1>Login</h1>
+    <form method="POST">
+        <label for="username">Email:
+            <input id="usernameinput" name="username" type="email" placeholder="email" required>
+        </label>
+        <label for="password">Password:
+                <input id="passwordinput" name="password" type="password" required placeholder="password">
+        </label>
+        <button type="submit">Submit</button>
+        <div><input type="radio">Plant a Tree?</div>
+    </form>
+<!-- Additional User Data Collection -->
+    <div>
+        <div>
+            <label for="checkbox">html</label>
+            <input type="checkbox">
+            <label for="checkbox">css</label>
+            <input type="checkbox">
+            <label for="checkbox">javascript</label>
+            <input type="checkbox">
+        </div>
+    </div>
+    <div>
+        <form>
+            <label for="dogs">Dogs:</label>
+            <input name="pet-choice" id="dogs" type="radio" value="dogs">
+            <label for="cats">Cats:</label>
+            <input name="pet-choice" id="cats" type="radio" value="cats">
+            <p>What's your mood</p>
+            <select name="mood">
+                <option value="happy">: )</option>
+                <option value="sad">: (</option>
+                <option value="meh"> : |</option>
+            </select>
+
+            <input type="text">
+            <textarea name="Bio" id="" cols="30" rows="10"></textarea>
+            <button>Go!</button>
+        </form>
+    </div>
+    <!-- End of form practice -->
+<!-- Creating a form from a picture example practice -->
+    <div>
+        <h1>Registration Form</h1>
+        <form>
+            <!-- names section -->
+            <label for="firstname">First Name:</label>
+            <input id="firstname" name="firstname" type="text" placeholder="first name" required>
+            <label for="lastname">Last Name:</label>
+            <input id="lastname" name="lastname" type="text" placeholder="last name" required><br>
+            <!-- sex section -->
+            <label for="male">male</label>
+            <input id="male" type="radio">
+            <label for="female">female</label>
+            <input id="female" type="radio">
+            <label for="other">other</label>
+            <input id="other" type="radio"><br>
+            <!-- email and password -->
+            <label for="email">Email:</label>
+            <input id="email" type="text" placeholder="email" required>
+            <label for="password">Password:</label>
+            <input id="password" type="password" placeholder="password" required><br>
+            <!-- birthday section -->
+            <label for="birthday">Birthday:</label>
+            <input id="birthday" type="date" required><br>
+            <!-- terms and conditions agreement -->
+            <label for="termsncondit">I agree to the terms and conditions</label>
+            <input id="termsncondit" type="checkbox" required>
+            <button>Go!</button>
+        </form>
+    </div>
 </body>
 </html>
